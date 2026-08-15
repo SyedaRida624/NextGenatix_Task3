@@ -23,55 +23,50 @@ Learn and implement local data manipulation in Flutter by creating an interactiv
 ### 1. Dashboard Initial State
 When the app launches with no tasks, the dashboard initializes metrics to `0` and displays a clean, empty-state placeholder.
 
-![Initial Empty State](<img width="1035" height="620" alt="ng3 1" src="https://github.com/user-attachments/assets/32a11117-3c23-4c41-8667-3d47264310fe" />
-)
+![Initial Empty State]<img width="1035" height="620" alt="ng3 1" src="https://github.com/user-attachments/assets/32a11117-3c23-4c41-8667-3d47264310fe" />
+
 
 ---
 
 ### 2. Add New Task (Create)
 Clicking **+ New Task** opens a modal bottom sheet to input a new item.
 
-![Add Task Modal](<img width="723" height="284" alt="ng3 2" src="https://github.com/user-attachments/assets/4018d8cc-cbc0-4384-8986-def084e7fe49" />
-)
+![Add Task Modal]<img width="723" height="284" alt="ng3 2" src="https://github.com/user-attachments/assets/4018d8cc-cbc0-4384-8986-def084e7fe49" />
 
 ---
 
 ### 3. Task List View (Read)
 Newly created tasks appear in the list using `ListView.builder`, automatically updating the **Total Tasks** metric on the dashboard.
 
-![Task List Display](<img width="1033" height="702" alt="ng3 3" src="https://github.com/user-attachments/assets/f24859bb-6513-4517-a26d-d483ca37090c" />
-)
+![Task List Display]<img width="1033" height="702" alt="ng3 3" src="https://github.com/user-attachments/assets/f24859bb-6513-4517-a26d-d483ca37090c" />
 
 ---
 
 ### 4. Edit Task (Update - Title)
 Tapping the edit (pencil) icon opens the modal pre-filled with the current title for quick editing.
 
-![Edit Task Modal](<img width="687" height="282" alt="ng3 4" src="https://github.com/user-attachments/assets/15b05254-5f49-4a98-97df-bb5a9a1a66fa" />
-)
+![Edit Task Modal]<img width="687" height="282" alt="ng3 4" src="https://github.com/user-attachments/assets/15b05254-5f49-4a98-97df-bb5a9a1a66fa" />
 
 ---
 
 ### 5. Updated Task State
 Saving changes immediately refreshes the UI state without needing a full screen reload.
 
-![Updated Task View](<img width="1036" height="623" alt="ng3 5" src="https://github.com/user-attachments/assets/e78a8b66-6d96-4746-b089-963b50b741be" />
-)
+![Updated Task View]<img width="1036" height="623" alt="ng3 5" src="https://github.com/user-attachments/assets/e78a8b66-6d96-4746-b089-963b50b741be" />
 
 ---
 
 ### 6. Mark as Completed (Update - Status)
 Toggling the radio/check button marks tasks complete, applies a strikethrough effect, and updates the **Progress** percentage to `100%`.
 
-![Completed Tasks View](<img width="1031" height="619" alt="ng3 6" src="https://github.com/user-attachments/assets/2c92c83b-f188-4da3-a46a-1f19f6dcc196" />
-)
+![Completed Tasks View]<img width="1031" height="619" alt="ng3 6" src="https://github.com/user-attachments/assets/2c92c83b-f188-4da3-a46a-1f19f6dcc196" />
 
 ---
 
 ### 7. Delete Task (Delete)
 Tapping the delete (trash) icon removes the item from the list and recalculates the dashboard stats instantly.
 
-![Task Deleted View](<img width="1034" height="629" alt="ng3 7" src="https://github.com/user-attachments/assets/21a5c9ce-edbe-4c46-8e5e-693707580cae" />
-)
+![Task Deleted View]<img width="1034" height="629" alt="ng3 7" src="https://github.com/user-attachments/assets/21a5c9ce-edbe-4c46-8e5e-693707580cae" />
+
 
 ---
